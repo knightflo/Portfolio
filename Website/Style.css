@@ -1,0 +1,96 @@
+#more_introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    min-height: 50vh;
+    margin: auto;
+    margin-bottom: 264px;
+    margin-top: 100px;
+}
+
+#introduction{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#textcollection {
+    flex: 2 0 0;
+}
+#face{
+    margin-left: 20px;
+    flex: 1 0 0;
+}
+
+#title{
+    background-color: darkgreen;
+    font-size: 30px;
+}
+
+#introduction_text{
+    background-color: blue;
+}
+
+#skills{
+    display: flex;
+    width: 98vw;
+    align-items: center;
+    flex-direction: column;
+margin-bottom: 187px;
+}
+
+#contact_me_button{
+    display: flex;
+    width: 98vw;
+    justify-content: center;
+    margin-bottom: 239px;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 287px;
+}
+
+#projects_button{
+display: flex;
+    justify-content: center;
+    width: 98vw;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+
+}
+
+.nav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.nav li a:hover {
+    background-color: darkblue;
+}
+
+

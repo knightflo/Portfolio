@@ -1,0 +1,98 @@
+body{
+
+    margin: 0;
+    background: url(img/background.jpg)no-repeat center center fixed;
+background-size: cover;
+}
+
+#background{
+display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+    margin-top: 20px;
+    background-color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img{
+    display: flex;
+
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+
+
+
+
+#taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#taskbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
+
+#taskbar a:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: url(img/wallpaper.jpg)no-repeat center center fixed;
+        background-size: 100%;
+    }
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #background {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box{
+        background: none;
+        border-radius: 20px;
+        width: 100px;
+        justify-content: center;
+    }
+    img{
+        background-color: grey;
+        border-radius: 20px;
+    }
+
+}
