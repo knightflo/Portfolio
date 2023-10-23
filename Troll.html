@@ -9,27 +9,73 @@
     <link rel="stylesheet" href="pointandclick.css">
 </head>
 <body>
-<div class="container">
-    <img id="backgroundimage" src="img/troll.png">
+<ul class="background">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
 
-    <div class="content">
-        <h1 id="title">Troll game for mobile</h1>
-        <p id="description">This is a game that i made for mobile. You have to try to get to the end. But there are a lot of unexpected obstacles. We call these 'trolls.' If you want to download the game. It contains a zip file and is meant to play on pc. You can use the black buttons to move the red block or jump!</p>
-        <div id="cornerplay">
-            <a href="Downloads/Troll_game_for_mobile.zip" download>
-                <p id="play">Click me to download the game!</p>
-            </a>
-        </div>
+<h1 id="title">Troll game for mobile</h1>
+
+
+<div id="textimage">
+    <div class="text">
+        <h2>This project is filled with traps. You have to move the red square to the end with the buttons on the screen. Learn to remember the locations of the traps. </h2>
     </div>
+    <img src="img/troll.png">
 </div>
+<div id="textimage2">
+    <img src="img/Schermafbeelding%202023-10-18%20203732.png">
+    <div class="text">
+        <h2>I made this game on my own. It was a challenge finding out how to move the red square along the ground-floor to make jumps possible. There I needed some directions. I learned about the moving system for a mobile. I also learned how to switch screens so that it seems the screen follows the red block.</h2>
+    </div>
+
+</div>
+
+
+
+<div id="buttons">
+    <a href="https://github.com/knightflo/Trollgameformobile">
+        <div class="button">
+            <h2>Go to the code</h2>
+        </div>
+    </a>
+    <a href="Downloads/Troll_game_for_mobile.zip" download>
+        <div class="button">
+            <h2>Download the game</h2>
+        </div>
+    </a>
+</div>
+
+
+
+
+
+
+
+
+
 
 <div id="taskbar">
-    <a href="index.html">Main page</a>
-    <a href="https://form.jotform.com/232823782916060">Contact me</a>
-    <a href="Projects.html">Projects</a>
-    <a href="#">Language</a>
+    <div class="anti"> <a href="index.html">Main page</a></div>
+    <div class="anti"> <a href="https://form.jotform.com/232823782916060">Contact me</a></div>
+    <div class="anti"> <a href="Projects.html">Projects</a></div>
+    <div id="same" onclick="choice()"><p>Language</p>
+        <div id="language">
+            <a>English</a>
+            <a>Dutch</a>
+        </div>
 
+    </div>
 </div>
+<script src="js/Script.js"></script>
 
 
 

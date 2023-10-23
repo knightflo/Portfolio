@@ -7,48 +7,147 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio Floris</title>
     <link rel="stylesheet" href="Projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,800;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="background">
-    <a href="Point%20and%20click.html">
-    <div class="box">
+<ul class="background">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
 
-        <img src="img/mainCharacter.png" alt="">
-        <p class="title">Point and click game</p>
 
-    </div>
-    </a>
-    <a href="pong.html">
-    <div class="box">
-        <img src="img/ball.png">
-        <p class="title">Pong</p>
+<div id="navigation">
+    <h2 id="games" onclick="games()">games</h2>
+    <h2 id="websites" onclick="website()">websites</h2>
+    <h2 id="others" onclick="other()">other</h2>
 
-    </div>
-    </a>
-    <a href="Troll.html">
+</div>
+
+
+
+
+<div id="hi">
+
     <div class="box">
-<img src="img/troll.png">
-        <p class="title">Troll game for mobile</p>
+        <a id="link1" href="Point%20and%20click.html">
+            <div id="image1" class="images" style='background-image: url("img/point and click.png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;'></div>
+
+            <div class="titlecolour">
+                <div class="titletags">
+                    <h1 id="title1" class="title">Point and click game</h1>
+                    <div id="tags1" class="tags">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Javascript</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="description1" class="description">A game created in a website where you have to point and click to move.</h2>
+        </a>
     </div>
-    </a>
+
+
     <div class="box">
-        <p class="title">game 4</p>
+        <a id="link2" href="pong.html">
+            <div id="image2" class="images" style='background-image: url("img/pong.png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;'></div>
+
+            <div class="titlecolour">
+                <div class="titletags">
+                    <h1 id="title2" class="title">Pong</h1>
+                    <div id="tags2" class="tags">
+                        <p>C#</p>
+                        <p>Unity</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="description2" class="description">The well known table tennis game on screen. </h2>
+        </a>
     </div>
+
+
     <div class="box">
-        <p class="title">game 5</p>
+        <a id="link3" href="Troll.html">
+            <div id="image3" class="images" style='background-image: url("img/troll.png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;'></div>
+
+            <div class="titlecolour">
+                <div class="titletags">
+                    <h1 id="title3" class="title">Troll game for mobile</h1>
+                    <div id="tags3" class="tags">
+                        <p>C#</p>
+                        <p>Unity</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="description3" class="description">A mobile platformer game with hidden traps.</h2>
+        </a>
+    </div>
+
+
+
+    <div class="box">
+        <a id="link4" href="adventure.html">
+            <div id="image4" class="images" style='background-image: url("img/Troll (2).png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;'></div>
+
+            <div class="titlecolour">
+                <div class="titletags">
+                    <h1 id="title4" class="title">Trolly adventures</h1>
+                    <div id="tags4" class="tags">
+                        <p>Stencyl</p>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="description4" class="description">My first platformer game with hidden traps.</h2>
+        </a>
     </div>
 
 
 </div>
+
+
 
 <div id="taskbar">
-    <a href="index.html">Main page</a>
-    <a href="https://form.jotform.com/232823782916060">Contact me</a>
-    <a href="#">Language</a>
+    <div class="anti"> <a href="index.html">Main page</a></div>
+    <div class="anti"> <a href="https://form.jotform.com/232823782916060">Contact me</a></div>
+    <div class="anti"> <a href="Projects.html">Projects</a></div>
+    <div id="same" onclick="choice()"><p>Language</p>
+        <div id="language">
+            <a>English</a>
+            <a>Dutch</a>
+        </div>
 
+    </div>
 </div>
 
 
-
+<script src="js/Change.js"></script>
+<script src="js/Script.js"></script>
 </body>
 </html>

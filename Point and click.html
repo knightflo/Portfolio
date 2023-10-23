@@ -7,28 +7,66 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Point and click game</title>
     <link rel="stylesheet" href="pointandclick.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,300;0,800;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-    <img id="backgroundimage" src="img/point%20and%20click.png">
+<ul class="background">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
 
-    <div class="content">
-        <h1 id="title">Point and click Game</h1>
-        <p id="description">This is a Point and click Game that I made. You need to try to get to the white door. But you just cant go there immediately. You have to stay on the path, or you die. There are also a lot of other obstacles!</p>
-         <div id="cornerplay">
-            <a href="https://knightflo.github.io/point-and-click/">
-            <p id="play">Click me to go to the game!</p>
-            </a>
+<h1 id="title">Point and click game</h1>
+
+
+<div id="textimage">
+    <div class="text">
+<h2>This project is about moving the person to the white door in the castle. The person moves to the place where you click. There are obstacles hidden in this game. If you click on an obstacle, you will return to the start. This game was a learning project which I did on my own.</h2>
+    </div>
+    <img src="img/point%20and%20click.png">
+</div>
+<div id="textimage2">
+    <img src="img/Schermafbeelding%202023-10-18%20204104.png">
+    <div class="text">
+        <h2>The game was my first experience with Javascript. I was very enthusiastic to discover that you can also create a game in a website. I also learned how to move an object on the screen.</h2>
+    </div>
+
+</div>
+
+
+
+<div id="buttons">
+    <a href="https://github.com/knightflo/point-and-click">
+        <div class="button">
+            <h2>Go to the code</h2>
         </div>
+    </a>
+    <a href="https://knightflo.github.io/point-and-click/">
+        <div class="button">
+<h2>Play the game</h2>
+        </div>
+    </a>
+
+</div>
+<div id="taskbar">
+    <div class="anti"> <a href="index.html">Main page</a></div>
+    <div class="anti"> <a href="https://form.jotform.com/232823782916060">Contact me</a></div>
+    <div class="anti"> <a href="Projects.html">Projects</a></div>
+    <div id="same" onclick="choice()"><p>Language</p>
+        <div id="language">
+            <a>English</a>
+            <a>Dutch</a>
+        </div>
+
     </div>
 </div>
-
-<div id="taskbar">
-    <a href="index.html">Main page</a>
-    <a href="https://form.jotform.com/232823782916060">Contact me</a>
-    <a href="Projects.html">Projects</a>
-    <a href="#">Language</a>
-
-</div>
+<script src="js/Script.js"></script>
 </body>
 </html>
