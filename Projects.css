@@ -341,30 +341,3 @@ border-radius:20px ;
 
 
 
-@media only screen and (max-width: 600px) {
-    body {
-        background: url(img/wallpaper.jpg)no-repeat center center fixed;
-        background-size: 100%;
-    }
-    .title{
-        width: 100%;
-
-        display: flex;
-        justify-content: center;
-    }
-    #background {
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .box{
-        background: none;
-        border-radius: 20px;
-        width: 100px;
-        justify-content: center;
-    }
-    img{
-        background-color: grey;
-        border-radius: 20px;
-    }
-
-}
