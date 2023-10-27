@@ -12,7 +12,8 @@ h2{
 }
 p{
     font-weight: 300;
-    -webkit-text-fill-color: black;
+    -webkit-text-fill-color: white;
+
 }
 h3{
     font-weight: 300;
@@ -259,11 +260,21 @@ border-radius: 3px;
 
 }
 #face{
-
+width: 351px;
+    height: 365px;
     border-radius: 20px;
    /* margin-left: 20px;*/
     flex: 1 0 0;
 }
+#hire{
+    margin-right: -1%;
+    margin-left: 1%;
+    padding-right: 2%;
+}
+#hire h2{
+    line-height: 20px;
+}
+
 
 #title{
 
