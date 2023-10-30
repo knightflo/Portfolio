@@ -192,6 +192,10 @@ a{
 
 }
 
+
+
+
+
 .nav li a:hover {
     background-color: lightgrey;
 }
@@ -315,29 +319,48 @@ border-radius:20px ;
 }
 
 #navigation{
+
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: dodgerblue;
     border-radius: 20px;
 }
+
+
+
+
+
+
 #navigation a:hover{
     background-color: cyan;
 }
 
 #games{
+
     width: 33%;
 }
 #websites{
     width: 33%;
 }
 #others{
-
+ width: 34%;
+}
+#games:hover{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#others:hover{
+border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.cent{
+    display: flex;
+    justify-content: center;
+}
+.cent:hover{
+    background-color: deepskyblue;
 }
 
-
-
-
-
-
-
-
+#bottomspace{
+    margin-bottom: 5%;
+}
