@@ -7,12 +7,16 @@ function games(){
     document.getElementById("image3").style.backgroundImage = 'url("img/troll.png")';
     document.getElementById("image4").style.backgroundImage = 'url("img/Troll (2).png")';
     document.getElementById("image5").style.backgroundImage = 'url("img/snail.png")';
+    document.getElementById("image6").style.backgroundImage = 'url("img/Nekomancer.png")';
+    document.getElementById("image7").style.backgroundImage = 'url("img/king and pigs.png")';
 
     document.getElementById("title1").innerText = "Point en click game";
     document.getElementById("title2").innerText = "Pong";
     document.getElementById("title3").innerText = "Troll game for mobile";
     document.getElementById("title4").innerText = "Trolly adventures";
     document.getElementById("title5").innerText = "The snail foundation";
+    document.getElementById("title6").innerText = "Nekomancer";
+    document.getElementById("title7").innerText = "King and pigs";
 
     document.getElementById("tags1").innerHTML = "<p>HTML</p>\n"+"<p>CSS</p>\n"+"<p>Javascript</p>";
     document.getElementById("tags2").innerHTML = "<p>C#</p>\n" +
@@ -21,21 +25,29 @@ function games(){
         "                        <p>Unity</p>";
     document.getElementById("tags4").innerHTML = "<p>Stencyl</p>";
     document.getElementById("tags5").innerHTML = "<p>C#</p>"+ "<p>Unity</p>";
+    document.getElementById("tags6").innerHTML = "<p>C#</p>"+ "<p>Unity</p>";
+    document.getElementById("tags7").innerHTML = "<p>C#</p>"+ "<p>Unity</p>";
 
     document.getElementById("description1").innerText = "Een game, gemaakt in een website, waarin je moet aanwijzen en klikken om voort te bewegen";
     document.getElementById("description2").innerText = "Het bekende tafeltennis spel op het scherm";
     document.getElementById("description3").innerText = "Een mobiel platform spel met verborgen valkuilen";
     document.getElementById("description4").innerText = "Mijn eerste platform spel met verborgen valkuilen";
     document.getElementById("description5").innerText = "Vang zo veel mogelijk slakken";
+    document.getElementById("description6").innerText = "Mijn eerste game waarmee ik multidiciplinair heb samengewerkt";
+    document.getElementById("description7").innerText = "Ga naar het einde met een zo hoog mogelijk score!";
 
     document.getElementById("link1").href ="pointnl.html";
     document.getElementById("link2").href ="pongnl.html";
     document.getElementById("link3").href ="trollnl.html";
     document.getElementById("link4").href ="trollynl.html";
     document.getElementById("link5").href ="snailnl.html";
+    document.getElementById("link6").href ="Nekonl.html";
+    document.getElementById("link7").href ="kingsnl.html";
 
     document.getElementById("invi4").style.display = "flex";
     document.getElementById("invi5").style.display = "flex";
+    document.getElementById("invi6").style.display = "flex";
+    document.getElementById("invi7").style.display = "flex";
 }
 
 function website(){
@@ -68,6 +80,8 @@ function website(){
 
     document.getElementById("invi4").style.display = "none";
     document.getElementById("invi5").style.display = "none";
+    document.getElementById("invi6").style.display = "none";
+    document.getElementById("invi7").style.display = "none";
 }
 
 function other(){
@@ -100,4 +114,6 @@ function other(){
 
     document.getElementById("invi4").style.display = "none";
     document.getElementById("invi5").style.display = "none";
+    document.getElementById("invi6").style.display = "none";
+    document.getElementById("invi7").style.display = "none";
 }
