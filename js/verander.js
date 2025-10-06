@@ -54,6 +54,9 @@ function games(){
     document.getElementById("invi6").style.display = "flex";
     document.getElementById("invi7").style.display = "flex";
     document.getElementById("invi8").style.display = "flex";
+    document.getElementById("invi9").style.display = "flex";
+    document.getElementById("invi10").style.display = "flex";
+    document.getElementById("invi11").style.display = "flex";
 }
 
 function website(){
@@ -89,6 +92,9 @@ function website(){
     document.getElementById("invi6").style.display = "none";
     document.getElementById("invi7").style.display = "none";
     document.getElementById("invi8").style.display = "none";
+    document.getElementById("invi9").style.display = "none";
+    document.getElementById("invi10").style.display = "none";
+    document.getElementById("invi11").style.display = "none";
 }
 
 function other(){
@@ -124,4 +130,7 @@ function other(){
     document.getElementById("invi6").style.display = "none";
     document.getElementById("invi7").style.display = "none";
     document.getElementById("invi8").style.display = "none";
+    document.getElementById("invi9").style.display = "none";
+    document.getElementById("invi10").style.display = "none";
+    document.getElementById("invi11").style.display = "none";
 }
